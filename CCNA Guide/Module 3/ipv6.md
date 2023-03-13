@@ -1,4 +1,5 @@
 <link rel="stylesheet" type="text/css" href="..\markcss.css">
+
 ### IPV6
 ![](2023-03-11-15-05-19.png)
 
@@ -55,9 +56,7 @@ ipv6 address <ip>/<mask> eui-64
 show ipv6 interface brief
 ```
 
-```
 
-```
 
 
 
