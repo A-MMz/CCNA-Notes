@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>1&period;1 Explain the role and function of network components</title>
+        <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+        
+    </head>
+    <body class="vscode-body vscode-light">
+        <h1 id="11-explain-the-role-and-function-of-network-components">1.1 Explain the role and function of network components</h1>
+<details>
+<summary>1.1.a Routers</summary>
+<h3 id="role">Role</h3>
+<ul>
+<li>Routers are required to reach hosts that are not in the local network</li>
+<li>Routers use a routing table to route between networks</li>
+</ul>
+<p>Routers play a critical role in directing data traffic between networks.
+They are responsible for analyzing incoming data packets and determining their destination, then forwarding them to the appropriate network.</p>
+<h3 id="function">Function:</h3>
+<ul>
+<li>path Determination</li>
+<li>packet Forwarding</li>
+</ul>
+<p>To perform their role, routers maintain a routing table, which is a database of network addresses and their associated routes. Using this information, routers determine the best path for data to travel between networks. When a data packet arrives at a router, it examines its destination address, looks up the corresponding route in its routing table, and forwards the packet along that route.</p>
+<p>Routers can also perform other functions such as filtering traffic based on certain criteria, like IP address or protocol type. They can also provide security features such as firewalls and virtual private network (VPN) support.</p>
+<pre><code>More:
+
+Netacad - Switching, Routing, and Wireless Essentials v7.02 14.1.1
+
+CTX training - &lt;https://ondemandlearning.cisco.com/cisco-ems/ccna10/sections/9/pages/2&gt;
+</code></pre>
+<hr>
+</details>
+<details>
+<summary> 1.1.b Layer 2 and Layer 3 switches </summary>
+<h3 id="layer-2">Layer 2</h3>
+<ul>
+<li>
+<p>Role:</p>
+<p>A Layer 2 switch, also known as an Ethernet switch, plays a critical role in local area networks (LANs) by connecting devices to a network and facilitating the transfer of data between them. Its primary function is to forward data frames between devices within a local network.</p>
+</li>
+<li>
+<p>Function:</p>
+<p>To perform its role, a Layer 2 switch operates at the Data Link layer (Layer 2) of the OSI (Open Systems Interconnection) model. It uses MAC (Media Access Control) addresses to identify the source and destination of data frames and makes forwarding decisions based on these addresses. Layer 2 switches have a switching table that maps MAC addresses to the switch port that the device is connected to. This allows the switch to quickly and efficiently forward data frames to their intended destinations.</p>
+<p>Layer 2 switches are also capable of supporting VLANs (Virtual Local Area Networks), which can be used to segment a network into multiple virtual LANs, each with its own broadcast domain. VLANs can improve network security and performance by limiting the broadcast traffic and improving network segmentation.</p>
+</li>
+</ul>
+<h3 id="layer-3">Layer 3</h3>
+<ul>
+<li>
+<p>Role:</p>
+<p>A Layer 3 switch, also known as an IP switch, plays a critical role in both local area networks (LANs) and wide area networks (WANs) by connecting different networks and facilitating the transfer of data between them. Its primary function is to route data packets between different networks based on their IP addresses.</p>
+</li>
+<li>
+<p>Function:</p>
+<p>To perform its role, a Layer 3 switch operates at the Network layer (Layer 3) of the OSI (Open Systems Interconnection) model. It uses both MAC and IP addresses to identify the source and destination of data packets and makes forwarding decisions based on these addresses. Layer 3 switches have a routing table that maps IP addresses to the next hop or outgoing interface to forward packets to their destination.</p>
+<p>In addition to routing functions, Layer 3 switches also offer advanced switching capabilities. They can perform packet switching at wire speed, just like Layer 2 switches, and support advanced VLAN features such as VLAN routing, where VLANs can be routed independently of each other.</p>
+<p>Layer 3 switches are commonly used in larger networks where routing between subnets or VLANs is required. They can improve network performance and security by reducing network congestion and limiting broadcast traffic.</p>
+</li>
+</ul>
+<hr>
+</details>
+<details>
+<summary>1.1.c Next-generation firewalls and IPS </summary>
+<hr>
+</details>
+<details>
+<summary>1.1.d Access points </summary>
+<hr>
+</details>
+<details>
+<summary>1.1.e Controllers (Cisco DNA Center and WLC) </summary>
+<hr>
+</details>
+<details>
+<summary>1.1.f Endpoints </summary>
+<hr>
+</details>
+<details>
+<summary>1.1.g Servers </summary>
+<hr>
+</details>
+<details>
+<summary>1.1.h PoE </summary>
+<hr>
+</details>
+
+        
+        
+    </body>
+    </html>
